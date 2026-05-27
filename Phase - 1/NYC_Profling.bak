@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Crashes_20241126.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CRASH DATE" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="CRASH TIME" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="BOROUGH" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="ZIP CODE" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="LATITUDE" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="LOCATION" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="ON STREET NAME" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="CROSS STREET NAME" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="OFF STREET NAME" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="NUMBER OF PERSONS INJURED" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="NUMBER OF PERSONS KILLED" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="NUMBER OF PEDESTRIANS INJURED" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="NUMBER OF PEDESTRIANS KILLED" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="NUMBER OF CYCLIST INJURED" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="NUMBER OF CYCLIST KILLED" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="NUMBER OF MOTORIST INJURED" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="NUMBER OF MOTORIST KILLED" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 1" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 2" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 3" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 4" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 5" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="COLLISION_ID" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="VEHICLE TYPE CODE 1" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="VEHICLE TYPE CODE 2" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="VEHICLE TYPE CODE 3" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="VEHICLE TYPE CODE 4" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="VEHICLE TYPE CODE 5" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="366" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="CRASH DATE" selected="True" />
+            <Field field="CRASH TIME" selected="True" />
+            <Field field="BOROUGH" selected="True" />
+            <Field field="ZIP CODE" selected="True" />
+            <Field field="LATITUDE" selected="True" />
+            <Field field="LONGITUDE" selected="True" />
+            <Field field="LOCATION" selected="True" />
+            <Field field="ON STREET NAME" selected="True" />
+            <Field field="CROSS STREET NAME" selected="True" />
+            <Field field="OFF STREET NAME" selected="True" />
+            <Field field="NUMBER OF PERSONS INJURED" selected="True" />
+            <Field field="NUMBER OF PERSONS KILLED" selected="True" />
+            <Field field="NUMBER OF PEDESTRIANS INJURED" selected="True" />
+            <Field field="NUMBER OF PEDESTRIANS KILLED" selected="True" />
+            <Field field="NUMBER OF CYCLIST INJURED" selected="True" />
+            <Field field="NUMBER OF CYCLIST KILLED" selected="True" />
+            <Field field="NUMBER OF MOTORIST INJURED" selected="True" />
+            <Field field="NUMBER OF MOTORIST KILLED" selected="True" />
+            <Field field="CONTRIBUTING FACTOR VEHICLE 1" selected="True" />
+            <Field field="CONTRIBUTING FACTOR VEHICLE 2" selected="True" />
+            <Field field="CONTRIBUTING FACTOR VEHICLE 3" selected="True" />
+            <Field field="CONTRIBUTING FACTOR VEHICLE 4" selected="True" />
+            <Field field="CONTRIBUTING FACTOR VEHICLE 5" selected="True" />
+            <Field field="COLLISION_ID" selected="True" />
+            <Field field="VEHICLE TYPE CODE 1" selected="True" />
+            <Field field="VEHICLE TYPE CODE 2" selected="True" />
+            <Field field="VEHICLE TYPE CODE 3" selected="True" />
+            <Field field="VEHICLE TYPE CODE 4" selected="True" />
+            <Field field="VEHICLE TYPE CODE 5" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CRASH DATE" size="10" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="String" />
+            <Field name="CRASH TIME" size="5" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="String" />
+            <Field name="BOROUGH" size="13" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="ZIP CODE" size="5" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="String" />
+            <Field name="LATITUDE" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Double" />
+            <Field name="LONGITUDE" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Double" />
+            <Field name="LOCATION" size="25" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="String" />
+            <Field name="ON STREET NAME" size="32" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="CROSS STREET NAME" size="32" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="OFF STREET NAME" size="40" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="NUMBER OF PERSONS INJURED" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Byte" />
+            <Field name="NUMBER OF PERSONS KILLED" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Byte" />
+            <Field name="NUMBER OF PEDESTRIANS INJURED" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Byte" />
+            <Field name="NUMBER OF PEDESTRIANS KILLED" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Byte" />
+            <Field name="NUMBER OF CYCLIST INJURED" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Byte" />
+            <Field name="NUMBER OF CYCLIST KILLED" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Byte" />
+            <Field name="NUMBER OF MOTORIST INJURED" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Byte" />
+            <Field name="NUMBER OF MOTORIST KILLED" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Byte" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 1" size="53" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 2" size="53" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 3" size="53" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 4" size="43" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="CONTRIBUTING FACTOR VEHICLE 5" size="43" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="COLLISION_ID" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="Int32" />
+            <Field name="VEHICLE TYPE CODE 1" size="38" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_WString" />
+            <Field name="VEHICLE TYPE CODE 2" size="38" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="VEHICLE TYPE CODE 3" size="35" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="VEHICLE TYPE CODE 4" size="35" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+            <Field name="VEHICLE TYPE CODE 5" size="35" source="File: C:\Niki\DADABI\FINAL PROJECT\Motor_Vehicle_Collisions_-_Crashes_20241126.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="534" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="546" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">CRASH DATE=True,CRASH TIME=True,BOROUGH=True,ZIP CODE=True,LATITUDE=True,LONGITUDE=True,LOCATION=True,ON STREET NAME=True,CROSS STREET NAME=True,OFF STREET NAME=True,NUMBER OF PERSONS INJURED=True,NUMBER OF PERSONS KILLED=True,NUMBER OF PEDESTRIANS INJURED=True,NUMBER OF PEDESTRIANS KILLED=True,NUMBER OF CYCLIST INJURED=True,NUMBER OF CYCLIST KILLED=True,NUMBER OF MOTORIST INJURED=True,NUMBER OF MOTORIST KILLED=True,CONTRIBUTING FACTOR VEHICLE 1=True,CONTRIBUTING FACTOR VEHICLE 2=True,CONTRIBUTING FACTOR VEHICLE 3=True,CONTRIBUTING FACTOR VEHICLE 4=True,CONTRIBUTING FACTOR VEHICLE 5=True,COLLISION_ID=True,VEHICLE TYPE CODE 1=True,VEHICLE TYPE CODE 2=True,VEHICLE TYPE CODE 3=True,VEHICLE TYPE CODE 4=True,VEHICLE TYPE CODE 5=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="678" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NIKICH~1\AppData\Local\Temp\Alteryx\Engine_22340_03e2605b345143ce84e1db09e1d2bf63_\Engine_22340_f705edfa38fb1141bc9fda0b066c231e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="678" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NIKICH~1\AppData\Local\Temp\Alteryx\Engine_22340_03e2605b345143ce84e1db09e1d2bf63_\Engine_22340_1a4bfc809079d94088eb60123ea37739~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="678" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NIKICH~1\AppData\Local\Temp\Alteryx\Engine_22340_03e2605b345143ce84e1db09e1d2bf63_\Engine_22340_469adc5e1b35104ab676c40f71826eb9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="678" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NIKICH~1\AppData\Local\Temp\Alteryx\Engine_22340_03e2605b345143ce84e1db09e1d2bf63_\Engine_22340_48f938773ef08845a7f29d953e7e706f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Reports" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Interactive" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC_Profling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="227acea0-7334-4864-a7d9-11ec67b58c03" />
+      <Telemetry>
+        <PreviousWorkflowId value="5e147162-7eb8-4e43-9e6b-e7015fe046ba" />
+        <OriginWorkflowId value="548c1ee7-461a-4f06-9a14-68ace3d9bb6d" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

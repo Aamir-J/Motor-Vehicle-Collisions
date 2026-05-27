@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="Crash ID" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="crash_fatal_fl" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="case_id" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="Primary address" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="Secondary address" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="rpt_block_num" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="rpt_street_name" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="rpt_street_sfx" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="crash_speed_limit" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="road_constr_zone_fl" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="latitude" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="longitude" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="crash_sev_id" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="sus_serious_injry_cnt" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="nonincap_injry_cnt" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="poss_injry_cnt" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="non_injry_cnt" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="unkn_injry_cnt" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="tot_injry_cnt" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="death_cnt" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="units_involved" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="point" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="motor_vehicle_death_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="motor_vehicle_serious_injury_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="bicycle_death_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="bicycle_serious_injury_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="pedestrian_death_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="pedestrian_serious_injury_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="motorcycle_death_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="motorcycle_serious_injury_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="other_death_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="other_serious_injury_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="onsys_fl" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="private_dr_fl" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="micromobility_serious_injury_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="micromobility_death_count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="Crash timestamp (US/Central)" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="Crash timestamp" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="Is deleted" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="Is temporary record" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="Law enforcement fatality count" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="Reported street prefix" size="254" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="258" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="414" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="crash_id" selected="True" />
+            <Field field="crash_fatal_fl" selected="True" />
+            <Field field="crash_date" selected="True" />
+            <Field field="crash_time" selected="True" />
+            <Field field="case_id" selected="True" />
+            <Field field="rpt_latitude" selected="True" />
+            <Field field="rpt_longitude" selected="True" />
+            <Field field="rpt_block_num" selected="True" />
+            <Field field="rpt_street_pfx" selected="True" />
+            <Field field="rpt_street_name" selected="True" />
+            <Field field="rpt_street_sfx" selected="True" />
+            <Field field="crash_speed_limit" selected="True" />
+            <Field field="road_constr_zone_fl" selected="True" />
+            <Field field="latitude" selected="True" />
+            <Field field="longitude" selected="True" />
+            <Field field="street_name" selected="True" />
+            <Field field="street_nbr" selected="True" />
+            <Field field="street_name_2" selected="True" />
+            <Field field="street_nbr_2" selected="True" />
+            <Field field="crash_sev_id" selected="True" />
+            <Field field="sus_serious_injry_cnt" selected="True" />
+            <Field field="nonincap_injry_cnt" selected="True" />
+            <Field field="poss_injry_cnt" selected="True" />
+            <Field field="non_injry_cnt" selected="True" />
+            <Field field="unkn_injry_cnt" selected="True" />
+            <Field field="tot_injry_cnt" selected="True" />
+            <Field field="death_cnt" selected="True" />
+            <Field field="contrib_factr_p1_id" selected="True" />
+            <Field field="contrib_factr_p2_id" selected="True" />
+            <Field field="units_involved" selected="True" />
+            <Field field="atd_mode_category_metadata" selected="True" />
+            <Field field="pedestrian_fl" selected="True" />
+            <Field field="motor_vehicle_fl" selected="True" />
+            <Field field="motorcycle_fl" selected="True" />
+            <Field field="bicycle_fl" selected="True" />
+            <Field field="other_fl" selected="True" />
+            <Field field="point" selected="True" />
+            <Field field="apd_confirmed_fatality" selected="True" />
+            <Field field="apd_confirmed_death_count" selected="True" />
+            <Field field="motor_vehicle_death_count" selected="True" />
+            <Field field="motor_vehicle_serious_injury_count" selected="True" />
+            <Field field="bicycle_death_count" selected="True" />
+            <Field field="bicycle_serious_injury_count" selected="True" />
+            <Field field="pedestrian_death_count" selected="True" />
+            <Field field="pedestrian_serious_injury_count" selected="True" />
+            <Field field="motorcycle_death_count" selected="True" />
+            <Field field="motorcycle_serious_injury_count" selected="True" />
+            <Field field="other_death_count" selected="True" />
+            <Field field="other_serious_injury_count" selected="True" />
+            <Field field="onsys_fl" selected="True" />
+            <Field field="private_dr_fl" selected="True" />
+            <Field field="micromobility_serious_injury_count" selected="True" />
+            <Field field="micromobility_death_count" selected="True" />
+            <Field field="micromobility_fl" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Int32" />
+            <Field name="Crash ID" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Int32" />
+            <Field name="crash_fatal_fl" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Bool" />
+            <Field name="case_id" size="20" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_String" />
+            <Field name="Primary address" size="54" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_String" />
+            <Field name="Secondary address" size="64" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_String" />
+            <Field name="rpt_block_num" size="10" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_String" />
+            <Field name="rpt_street_name" size="52" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_String" />
+            <Field name="rpt_street_sfx" size="4" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="String" />
+            <Field name="crash_speed_limit" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Int16" />
+            <Field name="road_constr_zone_fl" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Bool" />
+            <Field name="latitude" size="18" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_String" />
+            <Field name="longitude" size="18" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_String" />
+            <Field name="crash_sev_id" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="sus_serious_injry_cnt" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="nonincap_injry_cnt" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="poss_injry_cnt" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="non_injry_cnt" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="unkn_injry_cnt" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="tot_injry_cnt" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="death_cnt" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="units_involved" size="92" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_WString" />
+            <Field name="point" size="45" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="V_String" />
+            <Field name="motor_vehicle_death_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="motor_vehicle_serious_injury_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="bicycle_death_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="bicycle_serious_injury_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="pedestrian_death_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="pedestrian_serious_injury_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="motorcycle_death_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="motorcycle_serious_injury_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="other_death_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="other_serious_injury_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="onsys_fl" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Bool" />
+            <Field name="private_dr_fl" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Bool" />
+            <Field name="micromobility_serious_injury_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="micromobility_death_count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="Crash timestamp (US/Central)" size="22" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="String" />
+            <Field name="Crash timestamp" size="22" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="String" />
+            <Field name="Is deleted" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Bool" />
+            <Field name="Is temporary record" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Bool" />
+            <Field name="Law enforcement fatality count" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Byte" />
+            <Field name="Reported street prefix" source="File: C:\Niki\DADABI\FINAL PROJECT\Austin_Crash_Report_Data_-_Crash_Level_Records_20241126.tsv" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="582" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="594" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">ID=False,Crash ID=False,crash_fatal_fl=True,case_id=True,Primary address=False,Secondary address=False,rpt_block_num=True,rpt_street_name=True,rpt_street_sfx=True,crash_speed_limit=True,road_constr_zone_fl=True,latitude=True,longitude=True,crash_sev_id=True,sus_serious_injry_cnt=True,nonincap_injry_cnt=True,poss_injry_cnt=True,non_injry_cnt=True,unkn_injry_cnt=True,tot_injry_cnt=True,death_cnt=True,units_involved=True,point=True,motor_vehicle_death_count=True,motor_vehicle_serious_injury_count=True,bicycle_death_count=True,bicycle_serious_injury_count=True,pedestrian_death_count=True,pedestrian_serious_injury_count=True,motorcycle_death_count=True,motorcycle_serious_injury_count=True,other_death_count=True,other_serious_injury_count=True,onsys_fl=True,private_dr_fl=True,micromobility_serious_injury_count=True,micromobility_death_count=True,Crash timestamp (US/Central)=False,Crash timestamp=False,Is deleted=False,Is temporary record=False,Law enforcement fatality count=False,Reported street prefix=False</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NIKICH~1\AppData\Local\Temp\Alteryx\Engine_18280_4c9760dc31e7474ab744da7b941b5b0e_\Engine_18280_e11a848d1c62254e9fe09a2891d114b4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NIKICH~1\AppData\Local\Temp\Alteryx\Engine_18280_4c9760dc31e7474ab744da7b941b5b0e_\Engine_18280_f23103c04d51c04989f4ff06e5cca9e2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NIKICH~1\AppData\Local\Temp\Alteryx\Engine_18280_4c9760dc31e7474ab744da7b941b5b0e_\Engine_18280_313596125f91564098d2507baa1755c4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NIKICH~1\AppData\Local\Temp\Alteryx\Engine_18280_4c9760dc31e7474ab744da7b941b5b0e_\Engine_18280_7fadcbfc2ec4854caa18c65ce9b31a6e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Reports" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Interactive" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Austin_Profiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="28555918-9906-42c2-b599-8a7f06a37540" />
+      <Telemetry>
+        <PreviousWorkflowId value="550d0df8-32bd-4881-9ed0-653ec72c44d5" />
+        <OriginWorkflowId value="a8bf99c0-2cad-41f9-ad20-3ae50153236e" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
